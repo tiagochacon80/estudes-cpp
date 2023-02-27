@@ -15,6 +15,14 @@ int main() {
     string fullName = firstName + " " + LastName;
     //Or with append
     string fullName = firstName.append(LastName);
+    //String length
+    string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    cout << "The length of the txt string is: " << txt.length(); //output 26
+    //Access Strings
+    string myString  = "Hello";
+    cout << myString[0]; //output H
+    //Change String
+    myString[1] = 'y'; //output Hyllo
 
     return 0;
 }
