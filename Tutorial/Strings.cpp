@@ -23,6 +23,11 @@ int main() {
     cout << myString[0]; //output H
     //Change String
     myString[1] = 'y'; //output Hyllo
+    //User input Strings
+    string name;
+    cout << "Type your first name: ";
+    cin >> name;
+    cout << "Your name is: " << name;
 
     return 0;
 }
